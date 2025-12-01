@@ -1,51 +1,123 @@
-# 🚀 Fernando - Cloud & DevOps Portfolio
+# 🚀 Fernando Becerril Padilla - Aspiring Cloud Security Specialist
 
-## 👨‍💻 Sobre Mí
-Técnico en infraestructura cloud en formación, enfocado en dominar los fundamentos de AWS, redes y automatización para roles de Cloud Support, DevOps Junior o Cloud Operations.
+## 🎯 Mi Misión
+**Transformarme en uno de los mejores profesionales de seguridad cloud, comenzando desde los fundamentos sólidos.**
 
-> *"Aprendiendo cloud desde los cimientos, construyendo sobre lo que realmente sé"*
+> *"En un mundo donde los datos son el nuevo oro, la seguridad cloud no es un lujo, es la base de toda infraestructura confiable."*
 
-## 🎯 Objetivo Profesional
-Busco mi primera oportunidad como **Cloud Support Engineer**, **DevOps Technician** o **Cloud Operations Junior** donde pueda aplicar mis conocimientos prácticos en AWS, redes y Python para resolver problemas reales de infraestructura.
+## 👨‍💻 Mi Historia
+Soy un **futuro Cloud Security Engineer** en formación. Mi camino comienza con el dominio de los fundamentos: AWS, redes, y automatización. Pero mi visión va más allá: quiero especializarme en **seguridad cloud**, protegiendo infraestructuras críticas y datos sensibles.
 
-🛠️ Habilidades Técnicas
-☁️ AWS Cloud (Nivel Practitioner)
-Compute: EC2 (creación, conexión, administración básica)
 
-Storage: S3 (buckets, políticas, hosting estático)
+## 🛡️ Mi Especialización Futura: Cloud Security
+Estoy construyendo mi carrera hacia estos roles:
+1. **Cloud Security Engineer** - Diseñar y mantener infraestructuras seguras
+2. **Security DevOps (DevSecOps)** - Integrar seguridad en cada fase del ciclo de desarrollo
+3. **Cloud Compliance Specialist** - Aseguramiento de cumplimiento normativo en la nube
 
-Networking: VPC, Subnets, Route Tables, Internet Gateway
+## 🏗️ Fundación Técnica Actual
 
-Security: IAM (usuarios, grupos, políticas básicas)
+🚀 Proyectos Completados
+🛡️ Secure VPC Architecture
+Infraestructura de red diseñada con seguridad desde el inicio
 
-Serverless: Lambda (funciones básicas)
+✅ VPC con micro-segmentación - Subredes públicas/privadas aisladas
 
-🔗 Fundamentos de Redes
-Modelo TCP/IP y OSI
+✅ Security Groups estrictos - Reglas de mínimo privilegio
 
-Subneteo (CIDR, máscaras de red)
+✅ Network Access Control Lists - Defensa en profundidad
 
-Protocolos comunes (HTTP/HTTPS, DNS, SSH)
+✅ Flow Logs habilitados - Monitoreo de tráfico de red
 
-Seguridad básica de red
+🔗 Ver proyecto completo →
 
-🐍 Python para DevOps
-Scripting para automatización
+🔒 AWS Security Hardening
+Endurecimiento básico de cuenta AWS según mejores prácticas
 
-Boto3 (AWS SDK para Python)
+✅ IAM Hardening - MFA, políticas estrictas, sin uso de root
 
-Manipulación de archivos y logs
+✅ S3 Security - Block public access, encryption, versioning
 
-APIs básicas con Flask
+✅ Monitoring Setup - CloudTrail, Config básico
 
-⚙️ Herramientas Operacionales
-AWS Management Console
+✅ Compliance Checklist - 10 puntos de seguridad esenciales
 
-AWS CLI (comandos básicos)
+🤖 Secure Automation Scripts
+Automatización con foco en seguridad
 
-Git & GitHub
+✅ AWS Resource Auditor - Scripts para detectar configuraciones inseguras
 
-Linux Command Line
+✅ Security Compliance Checker - Verificación de mejores prácticas
+
+✅ Incident Response Helper - Automatización de respuesta básica
+
+🔗 Ver scripts →
+
+🌐 Network Security Lab
+Fundamentos de redes aplicados a seguridad
+
+✅ Packet Analysis - Wireshark para entender tráfico normal vs malicioso
+
+✅ Firewall Configuration - Security Groups como firewalls de próxima generación
+
+✅ DDoS Protection Basics - Understanding mitigation techniques
+
+🔗 Ver laboratorios →
+
+💼 Lo que Ofrezco a un Equipo de Seguridad
+Habilidades Técnicas Actuales
+Implementación de seguridad básica en AWS según mejores prácticas
+
+Detección de configuraciones inseguras comunes
+
+Automatización de checks de seguridad con Python
+
+Documentación de procesos de seguridad claros y reproducibles
+
+Mentalidad de Seguridad
+Security-First Mindset: Pienso en seguridad desde el diseño inicial
+
+Continuous Learning: Me mantengo actualizado con amenazas cloud
+
+Risk-Aware: Entiendo y comunico riesgos de seguridad
+
+Proactive: No solo corrijo problemas, prevengo futuros
+
+Potencial de Crecimiento
+Rápida curva de aprendizaje en tecnologías de seguridad
+
+Compromiso con certificaciones especializadas
+
+Pasión genuina por el campo de seguridad cloud
+
+Ética profesional sólida (crítico en seguridad)
+
+## 🎯 Learning Goals (2026)
+- Complete AWS Solutions Architect Associate
+- Improve English to C1 level
+- Contribute to open-source cybersecurity tools
+- Build more advanced automation scripts
+
+## 📫 Let's Connect
+- **LinkedIn:** [https://www.linkedin.com/in/fernando-becerril-padilla-77b768397/]
+- **GitHub:** [https://github.com/Ferdev49/Portfolio/blob/main/README.md]
+- **Email:** [fbecerril.dev@gmail.com]
+
+### **☁️ AWS Cloud - Dominio Fundamental**
+```yaml
+Infrastructure:
+  - VPC Architecture: Design, subnetting, routing
+  - EC2 Management: Secure instance deployment
+  - S3 Security: Bucket policies, encryption, access control
+
+Networking:
+  - Security Groups & NACLs: Micro-segmentation
+  - Network Isolation: Public/private subnet design
+  - Secure Connectivity: VPN concepts, Direct Connect basics
+
+Identity & Access:
+  - IAM Mastery: Users, roles, policies, MFA
+  - Least Privilege: Implementing minimal access
 
 ## 📊 Estado Actual del Portafolio
 
