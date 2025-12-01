@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Primer Sitio en AWS S3</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        body {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            min-height: 100vh;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 50px auto;
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            border-radius: 20px;
+            padding: 40px;
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+        }
+        
+        h1 {
+            color: #FF9900;
+            margin-bottom: 20px;
+            font-size: 2.5em;
+            text-align: center;
+        }
+        
+        .badge {
+            display: inline-block;
+            background: #FF9900;
+            color: #232F3E;
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-weight: bold;
+            margin: 10px 5px;
+        }
+        
+        .steps {
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 10px;
+            padding: 20px;
+            margin: 30px 0;
+        }
+        
+        .step {
+            display: flex;
+            align-items: center;
+            margin: 15px 0;
+            padding: 10px;
+            border-left: 4px solid #FF9900;
+        }
+        
+        .step-number {
+            background: #FF9900;
+            color: #232F3E;
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-right: 15px;
+            font-weight: bold;
+        }
+        
+        .completed {
+            border-left-color: #00D1B2;
+        }
+        
+        .completed .step-number {
+            background: #00D1B2;
+        }
+        
+        .architecture {
+            background: #232F3E;
+            padding: 15px;
+            border-radius: 10px;
+            font-family: monospace;
+            margin: 20px 0;
+            overflow-x: auto;
+        }
+        
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 1px solid rgba(255, 255, 255, 0.2);
+            font-size: 0.9em;
+            opacity: 0.8;
+        }
+        
+        @media (max-width: 600px) {
+            .container {
+                margin: 20px;
+                padding: 20px;
+            }
+            
+            h1 {
+                font-size: 1.8em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🚀 Mi Primer Deployment en AWS S3</h1>
+        
+        <div style="text-align: center; margin-bottom: 30px;">
+            <span class="badge">Amazon S3</span>
+            <span class="badge">Static Hosting</span>
+            <span class="badge">AWS Free Tier</span>
+            <span class="badge">Cloud Practitioner</span>
+        </div>
+        
+        <p>Este sitio web será desplegado en <strong>Amazon S3</strong> como parte de mi aprendizaje para la certificación AWS Cloud Practitioner.</p>
+        
+        <div class="steps">
+            <h2>📋 Pasos del Proyecto</h2>
+            
+            <div class="step completed">
+                <div class="step-number">1</div>
+                <div>
+                    <strong>Documentación y planificación</strong><br>
+                    <small>1 de diciembre 2024 - COMPLETADO</small>
+                </div>
+            </div>
+            
+            <div class="step">
+                <div class="step-number">2</div>
+                <div>
+                    <strong>Crear bucket S3 en AWS Console</strong><br>
+                    <small>Próximo: 2 de diciembre 2024</small>
+                </div>
+            </div>
+            
+            <div class="step">
+                <div class="step-number">3</div>
+                <div>
+                    <strong>Configurar permisos y políticas</strong><br>
+                    <small>Bucket policy para acceso público</small>
+                </div>
+            </div>
+            
+            <div class="step">
+                <div class="step-number">4</div>
+                <div>
+                    <strong>Subir archivos y habilitar hosting</strong><br>
+                    <small>Este HTML + assets a S3</small>
+                </div>
+            </div>
+            
+            <div class="step">
+                <div class="step-number">5</div>
+                <div>
+                    <strong>Pruebas y optimización</strong><br>
+                    <small>Validar URL, velocidad, costos</small>
+                </div>
+            </div>
+        </div>
+        
+        <h2>🏗️ Arquitectura Simple</h2>
+        <div class="architecture">
+Usuario (Browser)  
+    ↓ HTTP/HTTPS  
+    ↓  
+Amazon S3 Bucket  
+    ├── index.html  (este archivo)  
+    ├── style.css   (estilos)  
+    └── assets/     (imágenes, scripts)  
+        </div>
+        
+        <h2>📊 Lo que voy a aprender</h2>
+        <ul style="margin-left: 20px; line-height: 1.8;">
+            <li>Configuración de buckets S3</li>
+            <li>Políticas de seguridad IAM</li>
+            <li>Hosting estático vs dinámico</li>
+            <li>Monitoreo de costos en AWS</li>
+            <li>DNS y endpoints de S3</li>
+        </ul>
+        
+        <footer>
+            <p>📅 Proyecto iniciado: 1 de diciembre 2024</p>
+            <p>👨‍💻 Por: Ferdev49 - Camino a Cloud Practitioner</p>
+            <p>🔗 Repositorio: <a href="https://github.com/Ferdev49/cloud-devops-portfolio" style="color: #FF9900;">GitHub Portfolio</a></p>
+        </footer>
+    </div>
+</body>
+</html>
