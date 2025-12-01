@@ -65,6 +65,7 @@ Fundamentos de redes aplicados a seguridad
 🔗 Ver laboratorios →
 
 💼 Lo que Ofrezco a un Equipo de Seguridad
+
 Habilidades Técnicas Actuales
 Implementación de seguridad básica en AWS según mejores prácticas
 
@@ -103,21 +104,6 @@ Pasión genuina por el campo de seguridad cloud
 - **GitHub:** [https://github.com/Ferdev49/Portfolio/blob/main/README.md]
 - **Email:** [fbecerril.dev@gmail.com]
 
-### **☁️ AWS Cloud - Dominio Fundamental**
-```yaml
-Infrastructure:
-  - VPC Architecture: Design, subnetting, routing
-  - EC2 Management: Secure instance deployment
-  - S3 Security: Bucket policies, encryption, access control
-
-Networking:
-  - Security Groups & NACLs: Micro-segmentation
-  - Network Isolation: Public/private subnet design
-  - Secure Connectivity: VPN concepts, Direct Connect basics
-
-Identity & Access:
-  - IAM Mastery: Users, roles, policies, MFA
-  - Least Privilege: Implementing minimal access
 
 ## 📊 Estado Actual del Portafolio
 
