@@ -14,12 +14,6 @@ Implementar una Virtual Private Cloud (VPC) en AWS con enfoque en **seguridad de
 
 ### Diagrama de Red
 ![Arquitectura VPC Segura]
-![VPC](./[screenshots/vpc-created.png](https://github.com/Ferdev49/cloud-devops-portfolio/blob/main/01-AWS-Cloud/01-Secure-VPC/Captura%20de%20pantalla%202025-12-08%20130901.png))
-![Subnets](./screenshots/subnets-configured.png)
-![IGW](./screenshots/igw-attached.png)
-![Route Table](./screenshots/route-table.png)
-![Security Groups](./screenshots/security-groups.png)
-![Flow Logs](./screenshots/flow-logs.png)
 
 ### Componentes de Infraestructura
 ```yaml
