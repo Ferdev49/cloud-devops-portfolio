@@ -24,7 +24,7 @@ Implementar una Virtual Private Cloud (VPC) en AWS con enfoque en **seguridad de
 5. **Security Groups Configurados** - ![Security Groups](./SG-public.png) ![Security Groups Privados](./SGprivate.png) ![Security Groups DB](./SGprivate-db.png)
 6. **VPC Flow Logs Activos** - ![Flow Logs](./FlowLogs.png)
 
-## 🧪 Prueba de Funcionalidad (Opcional - Por Realizar)
+## 🧪 Prueba de Funcionalidad
 
 ### Objetivo
 Verificar que la VPC creada funciona correctamente y permite la conectividad controlada según las reglas de seguridad configuradas.
