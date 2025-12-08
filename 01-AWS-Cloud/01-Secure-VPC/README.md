@@ -10,10 +10,6 @@ Implementar una Virtual Private Cloud (VPC) en AWS con enfoque en **seguridad de
 - **Costo total:** $0.00 (todos los recursos en Free Tier)
 - **Estado:** ✅ Completado
 
-## 🏗️ Arquitectura Implementada
-
-### Diagrama de Red
-![Arquitectura VPC Segura]
 ## 📸 Evidencia de Implementación
 
 ### Capturas de la Consola AWS
@@ -44,6 +40,7 @@ Verificar que la VPC creada funciona correctamente y permite la conectividad con
 - **Instancia EC2:** $0.0116/hora × 0.25 horas = $0.0029
 - **Total estimado:** < $0.01 USD
 
+## 🏗️ Arquitectura Implementada
 ### Componentes de Infraestructura
 ```yaml
 VPC Principal:
