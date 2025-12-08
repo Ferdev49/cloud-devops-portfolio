@@ -14,7 +14,6 @@ Implementar una Virtual Private Cloud (VPC) en AWS con enfoque en **seguridad de
 
 ### Diagrama de Red
 ![Arquitectura VPC Segura]
-[VPC](./01-AWS-Cloud/01-Secure-VPC/Captura de pantalla 2025-12-08 130901.png)
 
 ### Componentes de Infraestructura
 ```yaml
