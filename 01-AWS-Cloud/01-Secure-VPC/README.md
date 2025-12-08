@@ -14,6 +14,35 @@ Implementar una Virtual Private Cloud (VPC) en AWS con enfoque en **seguridad de
 
 ### Diagrama de Red
 ![Arquitectura VPC Segura]
+## 📸 Evidencia de Implementación
+
+### Capturas de la Consola AWS
+1. **VPC Creada** - ![VPC](./VPC.png)
+2. **Subredes Configuradas** - ![Subnets](./Subnets.png)
+3. **Internet Gateway Conectado** - ![IGW](./IGW.png)
+4. **Route Table con Ruta a Internet** - ![Route Table](./Route-Table.png)
+5. **Security Groups Configurados** - ![Security Groups](./SG-public.png) ![Security Groups Privados](./SGprivate.png) ![Security Groups DB](./SGprivate-db.png)
+6. **VPC Flow Logs Activos** - ![Flow Logs](./FlowLogs.png)
+
+## 🧪 Prueba de Funcionalidad (Opcional - Por Realizar)
+
+### Objetivo
+Verificar que la VPC creada funciona correctamente y permite la conectividad controlada según las reglas de seguridad configuradas.
+
+### Prueba Planeada
+1. **Instancia EC2 de prueba** en `public-subnet-1`
+2. **Verificación de conectividad** a Internet
+3. **Validación de reglas de seguridad**
+4. **Limpieza de recursos** para control de costos
+
+### Recursos Necesarios
+- Instancia EC2 t2.micro (Free Tier)
+- Key Pair para conexión SSH
+- 15 minutos de tiempo de ejecución
+
+### Costo Estimado
+- **Instancia EC2:** $0.0116/hora × 0.25 horas = $0.0029
+- **Total estimado:** < $0.01 USD
 
 ### Componentes de Infraestructura
 ```yaml
