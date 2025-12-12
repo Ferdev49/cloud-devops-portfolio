@@ -15,55 +15,6 @@ Estoy construyendo mi carrera hacia estos roles:
 2. **Security DevOps (DevSecOps)** - Integrar seguridad en cada fase del ciclo de desarrollo
 3. **Cloud Compliance Specialist** - Aseguramiento de cumplimiento normativo en la nube
 
-## 🏗️ Fundación Técnica Actual
-
-🚀 Proyectos Completados
-🛡️ Secure VPC Architecture
-Infraestructura de red diseñada con seguridad desde el inicio
-
-✅ VPC con micro-segmentación - Subredes públicas/privadas aisladas
-
-✅ Security Groups estrictos - Reglas de mínimo privilegio
-
-✅ Network Access Control Lists - Defensa en profundidad
-
-✅ Flow Logs habilitados - Monitoreo de tráfico de red
-
-🔗 Ver proyecto completo →
-
-🔒 AWS Security Hardening
-Endurecimiento básico de cuenta AWS según mejores prácticas
-
-✅ IAM Hardening - MFA, políticas estrictas, sin uso de root
-
-✅ S3 Security - Block public access, encryption, versioning
-
-✅ Monitoring Setup - CloudTrail, Config básico
-
-✅ Compliance Checklist - 10 puntos de seguridad esenciales
-
-🤖 Secure Automation Scripts
-Automatización con foco en seguridad
-
-✅ AWS Resource Auditor - Scripts para detectar configuraciones inseguras
-
-✅ Security Compliance Checker - Verificación de mejores prácticas
-
-✅ Incident Response Helper - Automatización de respuesta básica
-
-🔗 Ver scripts →
-
-🌐 Network Security Lab
-Fundamentos de redes aplicados a seguridad
-
-✅ Packet Analysis - Wireshark para entender tráfico normal vs malicioso
-
-✅ Firewall Configuration - Security Groups como firewalls de próxima generación
-
-✅ DDoS Protection Basics - Understanding mitigation techniques
-
-🔗 Ver laboratorios →
-
 💼 Lo que Ofrezco a un Equipo de Seguridad
 
 Habilidades Técnicas Actuales
