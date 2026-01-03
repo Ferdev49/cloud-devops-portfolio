@@ -1,1 +1,19 @@
+# AWS S3 Security Auditor (Python & Boto3)
 
+## 📌 Descripción
+Este script de automatización en Python audita todos los buckets de Amazon S3 en una cuenta de AWS para verificar si cuentan con configuraciones de bloqueo de acceso público. Es una herramienta esencial para prevenir fugas de datos por errores de configuración (Misconfigurations).
+
+## 🛠️ Tecnologías utilizadas
+* **Lenguaje:** Python 3.x
+* **Librería:** Boto3 (AWS SDK para Python)
+* **Seguridad:** AWS IAM (Principio de menor privilegio)
+
+## 🚀 Cómo funciona
+El script utiliza la API de AWS para:
+1. Listar todos los buckets existentes.
+2. Consultar el estado de `Public Access Block`.
+3. Alertar visualmente sobre buckets que carecen de restricciones de seguridad.
+
+## 🔒 Medidas de Seguridad Aplicadas
+* **IAM Roles:** El usuario que ejecuta el script solo posee permisos de lectura (`ReadOnlyAccess`).
+* **Variables de Entorno:** No se almacenan credenciales dentro del código fuente.
