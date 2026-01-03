@@ -13,7 +13,7 @@ Soy un **futuro Cloud Security Engineer** en formación. Mi camino comienza con 
 ### [AWS S3 Security Auditor](https://github.com/Ferdev49/aws-s3-auditor)
 Script en Python (Boto3) para detectar vulnerabilidades en buckets de AWS y generar reportes CSV.
 
-### [Secure Network Design](https://github.com/Ferdev49/secure-network-design)
+### [Secure Network Design](https://github.com/Ferdev49/secure-enterprise-network)
 Diseño de topología empresarial en Cisco Packet Tracer con segmentación VLAN y endurecimiento de puertos (Port-Security).
 
 ## 🛡️ Mi Especialización Futura: Cloud Security
