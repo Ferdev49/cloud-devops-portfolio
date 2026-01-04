@@ -16,6 +16,10 @@ Script en Python (Boto3) para detectar vulnerabilidades en buckets de AWS y gene
 ### [Secure Network Design](https://github.com/Ferdev49/secure-enterprise-network)
 Diseño de topología empresarial en Cisco Packet Tracer con segmentación VLAN y endurecimiento de puertos (Port-Security).
 
+### [AWS Secure Static Hosting](https://github.com/Ferdev49/aws-secure-static-site)
+Despliegue de infraestructura web protegida mediante **CloudFront (OAC)** y **S3**, aplicando políticas de "Menor Privilegio" para evitar la exposición de datos.
+* **Tecnologías:** AWS (S3, CloudFront, IAM), Seguridad perimetral.
+
 ## 🛡️ Mi Especialización Futura: Cloud Security
 Estoy construyendo mi carrera hacia estos roles:
 1. **Cloud Security Engineer** - Diseñar y mantener infraestructuras seguras
